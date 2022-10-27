@@ -1,0 +1,537 @@
+/* ここから下に記載していく */
+@charset "UTF-8";
+html{
+    font-size: 62.5%;/* 16px × 62.5% = 10px*/
+}
+
+body{
+    color:#222222; 
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    font-size: 1.6rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* header */
+
+.profile-wrapper{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.example img{
+    width: 80%;
+    height: 80%;
+}
+
+.page-title{
+    font-size:1.8rem;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item{
+    margin: 50px 50px 50px 50px;
+    font-size: 2.1rem;
+}
+
+.header-wrapper{
+    display: flex;
+    height: 32.8rem;
+
+}
+
+/* top */
+
+.main-image{
+    position: relative;
+
+}
+
+.site-title{
+    font-size:3.0rem;
+    font-weight:bold;
+    color:white;
+}
+
+.main-image__text{
+    top: 40%;
+    left: 50%;
+    transform: translate3d(-50%, -50%,0);
+    position: absolute;
+    font-size:3.0rem;
+    font-weight:bold;
+    color:white;
+    margin: 0 0 30px;
+}
+
+.main-image__title{
+    bottom: 40%;
+    left: 50%;
+    transform: translate3d(-50%, -50%,0);
+    position: absolute;
+    font-size:2.0rem;
+    font-weight:bold;
+    color:white;
+}
+
+/* about */
+
+.profile__title{
+    margin: 60px 0 30px;
+    font-size: 2.4rem;
+    color:#ffd61a;
+}
+
+.profile__eyecatch{
+    margin: 0 0 60px;
+    font-size: 1.8rem;
+    color:#222222;
+}
+
+.profile__name{
+    margin: 0 0 40px;
+    font-size: 1.6rem;
+    color:#222222;
+}
+
+.profile__text{
+    margin: 0 0 40px;
+    line-height:3;
+}
+
+
+.works__list{
+    display: flex;
+}
+
+.works__item{
+    width: 25%;
+}
+
+/* course */
+
+.works__title{
+    margin: 60px 0 30px;
+    font-size: 2.4rem;
+    color: #222222;
+}
+
+.works__eyecatch{
+    margin: 0 0 60px;
+    font-size: 1.6rem;
+    color: #222222;
+    line-height:3;
+}
+
+.parent{
+    display: flex;
+    height: auto;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.children{
+    flex-direction: column;
+    margin-left: 0%;
+    background:#fafafa;
+    width: 50%;
+}
+
+.children1{
+    flex-direction: column;
+    margin-left: 0%;
+    background:#fafafa;
+    width: 50%;
+}
+
+.parent1{
+    display: flex;
+    height: auto;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-wrapper1{
+    display: flex;
+    height: auto;
+}
+
+
+.example2{
+    width: 50%;
+    height: auto;
+    margin-left: 0;
+}
+
+.example3{
+    width: 50%;
+    height: auto;
+    margin-left: 0;
+
+}
+
+
+.c1{
+    margin-top: 120px;
+    margin-bottom: 40px; 
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.c0{
+    background-color: #fafafa;
+    width: 48.2rem;
+}
+
+.c2{
+    margin-bottom: 40px ;
+    margin-left: 50px;
+    width: 48.2rem;
+}
+
+.c3{
+    margin-top:120px;
+    margin-bottom: 40px ;
+    margin-left: 50px;
+    width: 48.2rem;
+}
+
+.c4{
+    margin-bottom: 40px ;
+    margin-left: 50px;
+    width: 48.2rem;
+}
+
+.c5{
+    margin-top: 120px;
+    margin-bottom: 40px; 
+    margin-left: 50px;
+    font-size: 18px; 
+}
+
+.c5{
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 16px; 
+}
+
+.block1{
+    width: 100%;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+/* news */
+
+.news-area{
+    display: flex;
+}
+
+.news-content {
+    width: 25%;
+    padding: 0 3.75% 0 3.75%;
+}
+
+.news-date {
+    text-align: left;
+    margin: 3% 0 3% 0%;
+}
+
+.news-content {
+    width: 25%;
+    padding: 0 3.75% 0 3.75%;
+}
+
+/* news inner */
+.btn a {
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    margin: 60px auto;
+    width: 300px;
+    height: 60px;
+    background: #ffd61a;
+    line-height: 60px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  .btn a:hover {
+    opacity: 0.8;
+  }
+
+
+/* access */
+
+.access1 {
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+
+.paragraph-start {
+    text-align: center;
+    padding: 60px 0 0 0;
+    color:#ffd61a;
+    font-size: 2.4rem;
+}
+
+.paragraph-eyecatch{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 1.8rem;
+    color:#222222;
+}
+
+/* access */
+
+.paragraph-start1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 2.4rem;
+    color:#222222;
+}
+
+.paragraph-start2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 1.8rem;
+    color:#222222;
+}
+
+.access-table {
+    padding-top: 45px;
+    padding-left: 35%;
+}
+
+.access-dt {
+    float: left;
+    padding: 10px;
+}
+
+.access-dd {
+    margin-left: 150px;
+    padding: 10px;
+}
+
+/* contact */
+.form-wrapper{
+    width: 640px;
+    margin: auto;
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-title{
+    width: 240px;
+}
+
+.form-item{
+    width: 400px;
+}
+.wrap{
+    display:flex;
+    flex-flow:column;
+}
+
+.wrap1{
+    display:flex;
+    flex-flow:column;
+    width: 482px;
+    margin-left: 10%;
+}
+
+.wrap2{
+    display:flex;
+    flex-flow:column;
+    width: 100%;
+    margin-left: 10%;
+}
+
+#contact .c_cont {
+    margin: 60px 0 70px 0;
+    text-align: center;
+}
+
+.c_cont h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.c_cont h4 {
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.c_cont p{
+    font-size:16px;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+/* form */
+.block2{
+    width:640px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.mailForm table {
+    width: 640px;
+    margin-bottom: 40px;
+    margin-right:auto;
+    margin-left: auto;
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 100%;
+}
+
+.mailForm tr {
+    border-bottom: 1px dotted #dadada;
+}
+
+.mailForm th:nth-child(1) {
+    width: 8.8%;
+}
+
+.req {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #ff0000;
+    color: #fff;
+}
+
+.mailForm th:nth-child(1) {
+    width: 8.8%;
+}
+
+.mailForm th:nth-child(2) {
+    width: 22%;
+    padding-top: 18px;
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 100%;
+}
+
+.mailForm input[type="text"], .mailForm textarea {
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    padding: 8px;
+    border: 1px solid #d4d4d4;
+    border-radius: 6px;
+    outline: none;
+}
+
+.err_msg {
+    color: #ff0000;
+}
+
+.mailForm tr {
+    border-bottom: 1px dotted #dadada;
+}
+
+table th, table td {
+    box-sizing: border-box;
+    padding: 18px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.mailForm input[type="text"].ant2api-zip {
+    width: 20%;
+}
+
+.mailForm select {
+    box-sizing: border-box;
+    width: auto;
+    background: #fff url(../images/common/select_arrow.png) no-repeat right center;
+    padding: 8px 30px 8px 8px;
+    border: 1px solid #d4d4d4;
+    border-radius: 6px;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.pageLink a, .pageLink input {
+    display: inline-block;
+    margin: 0 36px;
+    padding: 12px 60px;
+    border: none;
+    border-radius: 0;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    -webkit-appearance: none;
+}
+
+.pageLink {
+    text-align: center;
+}
+
+.clearfix {
+    display: block;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    max-width: 1032px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #707070;
+}
+
+.footer-message {
+    text-align: center;
+    padding: 30px 0 30px 0;
+    color: white;
+}
+
+
